@@ -1,1 +1,4 @@
 Das ist meine erste Änderung.
+
+
+<version>0.1.0-SNAPSHOT</version>
