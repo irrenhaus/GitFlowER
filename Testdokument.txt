@@ -1,4 +1,1 @@
-Das ist meine erste Änderung.
-
-
-<version>0.2.0-SNAPSHOT</version>
+UPS!
