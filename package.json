@@ -1,7 +1,7 @@
 {
-  "name": "dvm_ui-tests",
-  "version": "1.0.0",
-  "description": "Test-Suite for general UI-Tests",
+  "name": "GitFlow Doc",
+  "version": "1.0.1",
+  "description": "GitFlow Doc Examples",
   "main": "conf.js",
   "dependencies": {
     "archiver": "^0.15.0",
@@ -12,10 +12,8 @@
     "jasmine-reporters": "^2.0.7",
     "jasmine-spec-reporter": "^2.2.2",
     "merge": "^1.2.0",
-    "mkdirp": "^0.5.1",
     "moment": "^2.10.6",
     "protractor": "2.4.0",
-    "protractor-retry": "git+https://git@github.com/irrenhaus/protractor-retry",
     "q": "^1.4.1",
     "request": "^2.57.0",
     "selenium-webdriver": "^2.46.1",
@@ -24,12 +22,8 @@
     "yargs": "^3.25.0"
   },
   "scripts": {
-    "invoiceExporter": "node lib/invoiceExporter.js",
-    "integrity-id": "node_modules/protractor/bin/protractor conf.js --suite integrity-id --params.dvApplication=id",
-    "smoketest-id": "node_modules/protractor/bin/protractor conf.js --suite smoketest-id --params.dvApplication=id",
-    "integrity-kmu": "node_modules/protractor/bin/protractor conf.js --suite integrity-id --params.dvApplication=id",
-    "smoketest-kmu": "node_modules/protractor/bin/protractor conf.js --suite smoketest-kmu --params.dvApplication=kmu"
+    "test": "node mytest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "Apache v2"
 }
